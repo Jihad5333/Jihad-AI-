@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>إدارة المستخدمين | AI Global Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="logo">AI Global Manager</div>
+        <nav>
+            <a href="dashboard.html">لوحة التحكم</a>
+            <a href="users.html" class="active">المستخدمون</a>
+            <a href="analytics.html">التحليلات</a>
+            <a href="ai-center.html">مركز الذكاء الاصطناعي</a>
+            <a href="settings.html">الإعدادات</a>
+        </nav>
+    </aside>
+    <main class="main-content">
+        <header>
+            <h1>إدارة المستخدمين</h1>
+        </header>
+        <section>
+            <table class="users-table">
+                <thead>
+                    <tr>
+                        <th>الاسم</th>
+                        <th>البريد الإلكتروني</th>
+                        <th>الدور</th>
+                        <th>الحالة</th>
+                        <th>خيارات</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>جهاد أحمد</td>
+                        <td>jihad@example.com</td>
+                        <td>مدير</td>
+                        <td>نشط</td>
+                        <td><button>تعديل</button> <button class="danger">حذف</button></td>
+                    </tr>
+                    <tr>
+                        <td>سارة علي</td>
+                        <td>sara@example.com</td>
+                        <td>مستخدم</td>
+                        <td>محظور</td>
+                        <td><button>تعديل</button> <button class="danger">حذف</button></td>
+                    </tr>
+                    <!-- أضف المزيد حسب الحاجة -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="assets/js/dashboard.js"></script>
+</body>
+</html>
